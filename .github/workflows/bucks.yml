@@ -2,7 +2,7 @@ name: Bucks Bot (daily)
 
 on:
   schedule:
-    - cron: "00 13 * * *"  # 7:00 AM CST
+    - cron: "10 12 * * *"  # 6:10 AM CST (12:10 UTC)
   workflow_dispatch: {}
 
 jobs:
